@@ -280,6 +280,7 @@ class Service(object):
             'id': service_call_id,
             'service': self.name,
             'args': dict(request),
+            'type': self.service_type,
         })
 
         # Non-blocking mode
